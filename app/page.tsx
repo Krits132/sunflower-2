@@ -119,14 +119,13 @@ export default function Home() {
       <main className="relative mx-auto flex min-h-screen max-w-6xl flex-col items-center gap-8 px-6 pb-20 pt-16 md:flex-row md:items-start md:gap-12 md:pt-20">
         <section className="flex max-w-xl flex-col gap-4 text-center md:text-left">
           <div className="inline-flex items-center gap-2 rounded-full bg-white/70 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-amber-900 shadow-sm ring-1 ring-amber-100 backdrop-blur">
-            Hi Nipaakshi! 🌻
+            Boooooring sunflower!!!!! 🌻
           </div>
           <h1
             className="text-4xl font-semibold leading-tight text-amber-950 drop-shadow-sm sm:text-5xl"
             style={{ fontFamily: '"Times New Roman", serif' }}
           >
-            The sunflower needs the power of your smile.
-            You are in camera now. Smile and see the sunflower bloom.
+            Need an evil smile for the sunflower to bloom
           </h1>
           
           <div className="flex flex-wrap items-center justify-center gap-3 md:justify-start">
@@ -134,11 +133,11 @@ export default function Home() {
               {cameraError
                 ? cameraError
                 : initialized
-                  ? "Camera is ready — show your smile!"
+                  ? "hahahaha!"
                   : "Requesting camera…"}
             </div>
             <div className="rounded-2xl bg-amber-700 px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-amber-300/40">
-              Smile meter: {(smile.score * 100).toFixed(0)}%
+              Evil smile meter: {(smile.score * 100).toFixed(0)}%
             </div>
           </div>
         </section>
